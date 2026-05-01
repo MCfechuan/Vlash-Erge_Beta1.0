@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlash Erge - 智能代理管理工具</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="resources/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="resources/icon.png" alt="Vlash Erge">
+                <span>Vlash<span class="highlight">Erge</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能</a></li>
+                <li><a href="#download">下载</a></li>
+                <li><a href="#about">关于</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#download" class="btn-primary">立即下载</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页 Hero -->
+    <section id="home" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-spotlight"></div>
+        <div class="hero-content">
+            <div class="badge-capsule">
+                <i class="fa-solid fa-bolt"></i> v2.0 正式发布
+            </div>
+            <h1>
+                智能代理管理<br>
+                <span class="typing-text">一键连接世界</span>
+            </h1>
+            <p class="subtext">
+                基于 Clash 内核的高性能代理管理工具，支持全球节点智能切换、
+                自动选择最优线路，让您的网络体验更加流畅安全。
+            </p>
+            <div class="cta-group">
+                <a href="#download" class="btn-orange">
+                    <i class="fa-solid fa-download"></i> 免费下载
+                </a>
+                <a href="#features" class="btn-glass">了解更多</a>
+            </div>
+            <div class="trust-signal">
+                <div class="avatars">
+                    <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                    <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                    <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                </div>
+                <span>已有 10,000+ 用户信赖</span>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="app-mockup">
+                <div class="mockup-header">
+                    <div class="dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="title">Vlash Erge</div>
+                </div>
+                <div class="mockup-body">
+                    <div class="sidebar">
+                        <div class="nav-item active"><i class="fa-solid fa-house"></i> 首页</div>
+                        <div class="nav-item"><i class="fa-solid fa-globe"></i> 代理节点</div>
+                        <div class="nav-item"><i class="fa-solid fa-gear"></i> 设置</div>
+                        <div class="nav-item"><i class="fa-solid fa-file-lines"></i> 日志</div>
+                    </div>
+                    <div class="main-content">
+                        <div class="stats-row">
+                            <div class="stat-card">
+                                <div class="stat-label">节点总数</div>
+                                <div class="stat-value">130</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-label">在线</div>
+                                <div class="stat-value green">128</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-label">状态</div>
+                                <div class="stat-value blue">已连接</div>
+                            </div>
+                        </div>
+                        <div class="proxy-list">
+                            <div class="proxy-item">
+                                <span class="flag">🇺🇸</span>
+                                <span class="name">美国节点 01</span>
+                                <span class="status online">在线</span>
+                            </div>
+                            <div class="proxy-item">
+                                <span class="flag">🇯🇵</span>
+                                <span class="name">日本节点 03</span>
+                                <span class="status online">在线</span>
+                            </div>
+                            <div class="proxy-item">
+                                <span class="flag">🇸🇬</span>
+                                <span class="name">新加坡节点 02</span>
+                                <span class="status online">在线</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特性 -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge-capsule"><i class="fa-solid fa-star"></i> 核心功能</span>
+                <h2>强大而简洁的代理管理</h2>
+                <p>专为追求效率的用户设计，每一个功能都经过精心打磨</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>全球节点覆盖</h3>
+                    <p>支持美国、日本、新加坡、香港等多个国家和地区的代理节点，一键切换。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Clash 内核驱动</h3>
+                    <p>基于高性能 Clash 内核，支持 Rule / Global 模式，自动选择最优线路。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>安全加密传输</h3>
+                    <p>所有代理连接均采用加密传输，保护您的网络隐私和数据安全。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>智能自动连接</h3>
+                    <p>支持开机自启动和自动连接代理，无需手动操作，开机即上网。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>节点收藏管理</h3>
+                    <p>收藏常用节点，快速切换。支持查看节点状态和延迟信息。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-minimize"></i>
+                    </div>
+                    <h3>系统托盘常驻</h3>
+                    <p>关闭窗口后最小化到系统托盘，随时通过托盘图标快速操作。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工作流程 -->
+    <section class="workflow-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="badge-capsule"><i class="fa-solid fa-timeline"></i> 使用流程</span>
+                <h2>三步开启代理</h2>
+                <p>简单直观的操作流程，无需复杂配置</p>
+            </div>
+            <div class="workflow-grid">
+                <div class="workflow-card">
+                    <div class="step-number">01</div>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-download"></i>
+                    </div>
+                    <h3>下载安装</h3>
+                    <p>下载 Vlash Erge，一键安装到您的 Windows 电脑。</p>
+                </div>
+                <div class="workflow-card active">
+                    <div class="step-number">02</div>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-mouse-pointer"></i>
+                    </div>
+                    <h3>选择节点</h3>
+                    <p>打开软件，从全球节点列表中选择您需要的代理节点。</p>
+                </div>
+                <div class="workflow-card">
+                    <div class="step-number">03</div>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    <h3>一键连接</h3>
+                    <p>点击连接按钮，自动配置系统代理，即刻畅享自由网络。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据统计 -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="number">130+</div>
+                    <div class="label">代理节点</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">20+</div>
+                    <div class="label">国家地区</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">99.9%</div>
+                    <div class="label">在线率</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">10K+</div>
+                    <div class="label">活跃用户</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载区域 -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="download-card">
+                <div class="download-glow"></div>
+                <div class="download-content">
+                    <h2>立即下载 Vlash Erge</h2>
+                    <p>支持 Windows 10 / 11 系统，免费使用</p>
+                    <div class="download-buttons">
+                        <a href="https://zip1.webgetstore.com/2026/05/01/80d255692924b0829499fc82c60a5d4b.zip?sg=6ffd0b0f6f670cad6f214e5f33a9673c&e=69f48162&fileName=Vlash%20Erge_Beta1.0.zip&fi=284672642" class="btn-download" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-windows"></i>
+                            <div class="btn-text">
+                                <span class="small">Download for</span>
+                                <span class="large">Windows</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="version-info">
+                        <span>当前版本: v2.0.0</span>
+                        <span>|</span>
+                        <span>更新日期: 2026-05-01</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="resources/icon.png" alt="Vlash Erge">
+                        <span>Vlash<span class="highlight">Erge</span></span>
+                    </a>
+                    <p>智能代理管理工具，让网络连接更简单。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-col">
+                        <h4>产品</h4>
+                        <ul>
+                            <li><a href="#features">功能介绍</a></li>
+                            <li><a href="#download">下载</a></li>
+                            <li><a href="#">更新日志</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-col">
+                        <h4>支持</h4>
+                        <ul>
+                            <li><a href="#">使用文档</a></li>
+                            <li><a href="#">常见问题</a></li>
+                            <li><a href="#">反馈建议</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-col">
+                        <h4>关于</h4>
+                        <ul>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">隐私政策</a></li>
+                            <li><a href="#">使用条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <div class="copyright">© 2026 Vlash Erge. All rights reserved.</div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 汉堡菜单
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    navMenu.classList.remove('active');
+                    hamburger.classList.remove('active');
+                }
+            });
+        });
+
+        // 导航栏滚动效果
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
